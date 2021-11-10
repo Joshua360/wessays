@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Place an Order</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+
+        <div class="jumbotron">
+            <div class="container" style="text-align: center;">
+                <h1 class="display-4">Place an order Now!</h1>
+                <!-- <p class="lead">My name is William and I will do your assignments for you</p> -->                
+            </div>
+          </div>
+
+
+      <form action="index.html" method="post">
+        
+        <h1>Place Order</h1>
+        
+        <fieldset>
+
+            <legend><span class="number">1</span> Academic Level</legend>
+            <select id="job" name="user_job">
+            <optgroup label="Web">
+              <option value="frontend_developer">Highschool</option>
+              <option value="php_developer">College</option>
+              <option value="python_developer">University</option>
+              <option value="rails_developer">Post Graduate</option>
+             
+            </optgroup>
+            
+          </select>
+        
+          
+          <legend><span class="number">2</span> Assignment Instructions</legend>
+          <textarea id="bio" name="user_bio"></textarea>
+          <input type="file" name="" id="">
+         
+    
+        
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><span class="number">3</span> Citation Style</legend>
+            <select id="job" name="user_job">
+                <optgroup label="Web">
+                <option value="frontend_developer">APA</option>
+                <option value="php_developer">MLA</option>
+                <option value="python_developer">Harvard</option>
+                <option value="rails_developer">Chicago</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <fieldset class="pages">
+            <legend><span class="number">4</span>Number of Pages</legend>
+            <label for="page">No of Pages</label>
+            <input type="number" name="page" value="0" id="">
+        </fieldset>
+        
+
+        <fieldset>
+            <legend><span class="number">5</span>Spacing</legend>
+            <select id="job" name="user_job">
+                <option value="frontend_developer">Double Spaced</option>
+                <option value="php_developer">Single Spaced</option>
+                <option value="python_developer">1.5 Spaced</option>
+                <option value="rails_developer">N/A</option>
+            </select>
+        </fieldset>
+        
+          
+        <button type="submit">Place order</button>
+   
+
+      </form>
+      
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
